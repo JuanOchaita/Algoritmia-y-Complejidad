@@ -1,0 +1,5 @@
+
+Variabilidad en Bogosort: Debido a que Bogosort es un algoritmo aleatorio que intenta ordenar la lista generando permutaciones hasta encontrar la correcta, sus tiempos mínimos y máximos varían mucho. El mínimo puede ser rápido si por suerte se ordena rápido, pero el máximo es extremadamente alto por la naturaleza factorial de la complejidad promedio (≈ n × n!).
+Consistencia en Stalin Sort: Stalin Sort funciona eliminando elementos que rompen la ordenación, por lo que su ejecución es muy predecible y rápida, con tiempos muy estables y bajos. La variación en los tiempos mínimos y máximos es más atribuible a la fluctuación en recursos del sistema que al algoritmo mismo.
+Media y mediana: La media y mediana de Stalin Sort son muy cercanas, lo que refleja su estabilidad. En contraste, la media de Bogosort está muy por encima de la mediana, indicando la presencia de valores extremadamente altos (outliers) que afectan el promedio.
+OPS (Operaciones por segundo): Stalin Sort es mucho más eficiente, ejecutando cerca de 27,800 operaciones por segundo, comparado con Bogosort que apenas alcanza 240.
